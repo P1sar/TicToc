@@ -5,8 +5,8 @@ class GameDesk():
     def __init__(self, rows, cols, win_line):
         self.win_line = win_line
         self.desk = []
-        self.rows = rows# + 2
-        self.cols = cols# + 2
+        self.rows = rows
+        self.cols = cols
 
         for row in range(0, self.rows):
             inner_desk = []
